@@ -1,0 +1,20 @@
+{
+    "development": {
+        "port": 8080,
+        "admin_path": "shouldbesecret",
+        "oauth": {
+            "redirect_host": "localhost",
+            "client_id": "Your Facebook App Client id",
+            "client_secret": "Your Facebook App Client secret"
+        }
+    },
+    "production": {
+        "port": 8080,
+        "admin_path": "shouldbesecret",
+        "oauth": {
+            "redirect_host": "productionhost",
+            "client_id": "Your Facebook App Client id",
+            "client_secret": "Your Facebook App Client secret"
+        }
+    }
+}

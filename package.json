@@ -1,0 +1,10 @@
+{
+    "name": "facebook-feeds",
+    "version": "v0.1.0",
+    "dependencies": {
+        "express": "~3.4.7",
+        "fbgraph": "~0.2.9",
+        "icalendar": "~0.6.5",
+        "js2xmlparser": "~0.1.3"
+    }
+}
