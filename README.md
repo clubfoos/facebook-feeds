@@ -5,10 +5,7 @@ Facebook feeds available in XML, ical or Facebook's JSON format.
 Use the [Graph API](https://developers.facebook.com/docs/graph-api/reference/)
 to find available feeds and needed permissions.
 
-For instance
-
-* need an iCal of your Facebook Group's events?
-* testje
+For instance you can create an iCal of your Facebook Group's events.
 
 ## Prerequisites
 You need a [Facebook App](developers.facebook.com/apps) and account to be
