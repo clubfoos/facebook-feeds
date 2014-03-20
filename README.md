@@ -91,7 +91,7 @@ The response will be something like:
 
 When requesting permissions from Facebook you normally get an access token that is valid for
 a couple of hours. The Facebook Feed service will automatically turn this token
-into a long lived token through which is valid for
+into a long lived token through `extend_permissions` which is valid for
 [60 days](https://developers.facebook.com/docs/facebook-login/access-tokens/#extending)
 and save it in the config as `config.access_token`. You can check it's validity
 and expiration date through the `permissions` call.
