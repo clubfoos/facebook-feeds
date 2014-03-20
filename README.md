@@ -67,6 +67,9 @@ permissions, before calling the public API.
 To change permissions, just call this API call again.
 The `request_permissions` will also make a call to `extend_permissions` on success
 
+Currently only App Access Tokens (default) and User Access Tokens (through
+permission requests) are provided. Page Access Tokens are not available yet.
+
 ### permissions
 
 To see information on the permissions your app has been granted make a call to
